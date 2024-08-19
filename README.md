@@ -18,31 +18,18 @@ Tech Stack
 Setup and Installation
 
     Clone the repository:
+    git clone https://github.com/Barak-Katzir/PodHunter.git
 
-    bash
+    Navigate to the project directory:
+    cd PodHunter
 
-git clone https://github.com/Barak-Katzir/PodHunter.git
+    Install the necessary dependencies:
+    npm install
 
-Navigate to the project directory:
+    Create a .env file and add your MongoDB connection string:
+    MONGO_URI=your_mongo_uri
 
-bash
-
-cd PodHunter
-
-Install the necessary dependencies:
-
-npm install
-
-Create a .env file and add your MongoDB connection string:
-
-makefile
-
-MONGO_URI=your_mongo_uri
-
-Start the server:
-
-sql
-
+    Start the server:
     npm start
 
     Open your browser and navigate to http://localhost:3000 to view the application.
