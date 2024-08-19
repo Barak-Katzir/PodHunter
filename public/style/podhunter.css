@@ -1,0 +1,211 @@
+body {
+    background: url('../images/podcastsTexture.png') #FFCC99;
+    background-size: 300px 300px;
+    font-family: 'Nunito';
+    font-size: 16px;
+}
+
+.navbar {
+    background-color: #FFE5CA;
+    transition: background-color 0.3s ease;
+}
+
+.navbar:hover {
+    background-color: #FFDFC2;
+}
+
+.navbar .nav-link {
+    color: #E74646;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    color: #FF6363;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.nav-link.active {
+    color: #FA9884 !important;
+    border-radius: 5px;
+    position: relative;
+}
+
+.nav-link.active:before,
+.nav-link.active:after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #FA9884;
+    transition: transform 0.3s ease;
+}
+
+.nav-link.active:before {
+    transform: scaleX(0);
+}
+
+.nav-link.active:hover:before {
+    transform: scaleX(1);
+}
+
+.nav-link.active:after {
+    transform: scaleX(1);
+}
+
+.nav-link.active:hover:after {
+    transform: scaleX(0);
+}
+
+.navbar-brand h1 {
+    font-family: 'Orbitron';
+    font-size: 25px;
+}
+
+.navbar-brand h1 i {
+    color: #E74646;
+    font-size: 25px;
+}
+
+.btn-outline-success {
+    color: #E74646;
+    border-color: #E74646;
+}
+
+.btn-outline-success:hover,
+.btn-outline-success:active,
+.btn-outline-success:focus {
+    background-color: #E74646 !important;
+    color: white;
+    border-color: #E74646;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Nunito';
+    color: #E74646;
+    font-weight: bold;
+}
+
+.card.main-card {
+    background-color: #FFE5CA;
+    border: 0px;
+}
+
+.card.item-card {
+    background-color: #FFF3E2;
+    border: 0px;
+}
+
+.card.item-card:hover {
+    transform: scale(1.03);
+    transition: transform 0.3s ease;
+}
+
+.card.item-card .card-image-top {
+    border-radius: 5px 5px 0 0;
+}
+
+.fa-heart:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+
+.toast {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    max-width: 350px;
+    padding: 0.5rem;
+    background-color: #E74646 !important;
+    color: white !important;
+    font-family: 'Nunito', sans-serif !important;
+    border-radius: 5px !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+    z-index: 10000;
+}
+
+.toast-success {
+    background-color: rgba(13, 164, 13, 0.828) !important;
+}
+
+.toast .btn-close {
+    color: white !important;
+    font-size: 1.25rem;
+    position: absolute;
+    top: 50%;
+    right: 0.5rem;
+    transform: translateY(-50%);
+    opacity: 0.5;
+}
+
+.toast .btn-close:hover {
+    opacity: 1;
+}
+
+.modal-header {
+    background-color: #FFE5CA;
+}
+
+.modal-footer {
+    background-color: #FFE5CA;
+}
+
+footer {
+    font-size: 25px;
+    letter-spacing: 0.75rem;
+}
+
+#podcast-picture {
+    max-height: 300px;
+    width: 85%;
+    object-fit: contain;
+}
+
+.comment,
+.message {
+    background: #FFDFC2;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.comment .details,
+.message .details {
+    color: #816f5d;
+    background: #f5d4b4;
+}
+
+.comment .content,
+.message .content {
+    background: #e7c7a7;
+    color: #443a30;
+}
+
+.card-img-top {
+    cursor: pointer;
+}
+
+.podcast-heading {
+    display: flex;
+    align-items: center;
+}
+
+.podcast-heading i {
+    margin-right: 2px;
+    justify-content: space-between;
+}
+
+@media (max-width: 767px) {
+    .justify-space-between {
+        justify-content: space-between;
+    }
+
+    .podcast-heading {
+        margin-right: 10px;
+    }
+}

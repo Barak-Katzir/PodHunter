@@ -1,0 +1,84 @@
+{
+    "podcasts": [
+        {
+            "name": "Bring The Heat",
+            "description": "Talking American Football in Israel.",
+            "rank": 5,
+            "category": "Sports",
+            "picture": "./images/bring-the-heat.jpg",
+            "link": "https://open.spotify.com/show/5QinuBubOEs5joVh4g7v20"
+        },
+        {
+            "name": "Hard Reset",
+            "description": "Hardware Engineering podcast.",
+            "rank": 5,
+            "category": "Tech",
+            "picture": "./images/hard-reset.jpg",
+            "link": "https://open.spotify.com/show/2jVk9zuhcDS8KAavPNyTDu"
+        },
+        {
+            "name": "How The World Works?",
+            "description": "A fascinating journey to world of science.",
+            "rank": 4,
+            "category": "Science",
+            "picture": "./images/world-works.jpg",
+            "link": "https://open.spotify.com/show/5llYSLWmy9JPNa2hgpk9Mj"
+        },
+        {
+            "name": "Ted Talks Daily",
+            "description": "Every weekday, TED Talks Daily brings you the latest talks in audio.",
+            "rank": 4,
+            "category": "Every Day",
+            "picture": "./images/ted.jpg",
+            "link": "https://open.spotify.com/show/1VXcH8QHkjRcTCEd88U3ti"
+        },
+        {
+            "name": "Shot",
+            "description": "Talking Basketball in Israel.",
+            "rank": 5,
+            "category": "Sports",
+            "picture": "./images/shot.jpg",
+            "link": "https://open.spotify.com/show/2PmPudkZQ2SoF65JH22UXp"
+        },
+        {
+            "name": "Hayot Kiss",
+            "description": "Talking about economy in simple words",
+            "rank": 5,
+            "category": "Economy",
+            "picture": "./images/hayot-kiss.jpg",
+            "link": "https://open.spotify.com/show/44Mg6W7BrmDtJuuWF7H4b2"
+        },
+        {
+            "name": "The Joe Rogan Experience",
+            "description": "The official podcast of comedian Joe Rogan.",
+            "rank": 4,
+            "category": "Comedy",
+            "picture": "./images/joe-rogan.jpg",
+            "link": "https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk"
+        },
+        {
+            "name": "The Butcher Shop",
+            "description": "Talking with nissim and anatoli.",
+            "rank": 3,
+            "category": "Show",
+            "picture": "./images/nissim-anatoli.jpg",
+            "link": "https://open.spotify.com/show/5NoPOwKd4iGBa9exY6bFeV"
+        },
+        {
+            "name": "One At A Day",
+            "description": "Talking news in Israel.",
+            "rank": 2.5,
+            "category": "News",
+            "picture": "./images/one-day.jpg",
+            "link": "https://open.spotify.com/show/6TMepIcA0MjQm96IFzvK08"
+        },
+        {
+            "name": "Carpool Karaoke",
+            "description": "Udi Kagan hosting famous.",
+            "rank": 4,
+            "category": "Music",
+            "picture": "./images/carpool-karaoke.jpg",
+            "link": "https://open.spotify.com/show/07IwKi8kOMxgnpNd8shqWG"
+        }
+    ]
+}
